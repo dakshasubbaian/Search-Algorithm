@@ -1,4 +1,4 @@
-# Linear Search and Binary search
+![image](https://github.com/user-attachments/assets/57e6590d-75ed-47d3-afee-219471c73970)# Linear Search and Binary search
 ## AIM:
 To write a program to perform linear search and binary search using python programming.
 ## EQUIPMENTS REQUIRED:
@@ -19,11 +19,10 @@ To write a program to perform linear search and binary search using python progr
 ## PROGRAM:
 i)	#Use a linear search method to match the item in a list.
 ```
-''' 
-Program for linear search method to match the item in a list
-Developed by:Daksha Subbaian
-RegisterNumber:23003584
-'''
+#Program for linear search method to match the item in a list
+#Developed by:Daksha Subbaian
+#RegisterNumber:212223230036
+
 def linearSearch(array,n,k):
     for i in range(0,n):
         if(array[i]==k):
@@ -44,11 +43,10 @@ else:
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-''' 
-Program to find the element in a list using Binary Search(Iterative Method)..
-Developed by:Daksha Subbaian
-RegisterNumber:23003584
-'''
+#Program to find the element in a list using Binary Search(Iterative Method)..
+#Developed by:Daksha Subbaian
+#RegisterNumber:212223230036
+
 def binarySearchIter(array, k, low, high):
     while low<=high:
         mid=low+(high-low)//2
@@ -74,11 +72,10 @@ else:
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-''' 
-Program to find the element in a list using Binary Search (recursive Method).
-Developed by:Daksha Subbaian
-RegisterNumber:23003584 
-'''
+#Program to find the element in a list using Binary Search (recursive Method).
+#Developed by:Daksha Subbaian
+#RegisterNumber:212223230036 
+
 def binarySearch(arr, k, low, high):
     if low<=high:
         mid=low+(high-low)//2
@@ -105,14 +102,9 @@ else:
     print("Element found at index: ",t)
 ```
 ## SAMPLE INPUT AND OUTPUT:
-![output](/output1.png)
-
-
-![output](/output2.png)
-
-
-![output](/output3.png)
-
+![image](https://github.com/user-attachments/assets/a4916102-58de-4f9a-a489-c47927dc4ce2)
+![image](https://github.com/user-attachments/assets/4568850c-f758-4a91-a367-e370a2120770)
+![image](https://github.com/user-attachments/assets/0ba7a7a5-7a85-4332-aa85-59acdbd0db51)
 
 
 
